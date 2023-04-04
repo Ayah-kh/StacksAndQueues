@@ -10,11 +10,11 @@ public class FixedCapacityStackOfStrings {
         return N == 0;
     }
 
-    public void push(String item){
-        strings[N++]=item;
+    public void push(String item) {
+        strings[N++] = item;
     }
 
-    public String pop(){
+    public String pop() {
         return strings[--N];
     }
 }
