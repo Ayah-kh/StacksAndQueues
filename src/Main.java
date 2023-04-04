@@ -2,18 +2,17 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        LinkedStackOfStrings stack=new LinkedStackOfStrings();
+        stack.push("Hello");
+        stack.push("My World");
+        stack.push("How");
+        stack.push("Please");
+        System.out.println(stack.isEmpty());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.isEmpty());
 
-        Stack<String> stringStack = new Stack<>();
-        stringStack.push("Ayah");
-        stringStack.push("Noor");
-        stringStack.push("Raghad");
-        stringStack.push("Yasmeen");
-        stringStack.push("Who");
-        System.out.println(stringStack);
-        stringStack.pop();
-        stringStack.pop();
-        System.out.println(stringStack);
-        System.out.println(stringStack.size());
     }
 }
