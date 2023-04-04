@@ -4,7 +4,7 @@ public class LinkedStackOfStrings {
 
     private class Node{
         String item;
-        Node Next;
+        Node next;
     }
 
     public boolean isEmpty(){
@@ -13,5 +13,14 @@ public class LinkedStackOfStrings {
 
     public void push(String item){
         Node oldFirst=first;
+        first=new Node();
+        first.item=item;
+        first.next=oldFirst;
+    }
+
+    public String pop(){
+        String item=first.item;
+        first=first.next;
+        return item;
     }
 }
