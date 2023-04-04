@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7abbf330-2cad-4ce6-85a7-4a01eaf0c960" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/src/FixedCapacityStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FixedCapacityStackOfStrings.java" afterDir="false" />
-    </list>
+    <list default="true" id="7abbf330-2cad-4ce6-85a7-4a01eaf0c960" name="Changes" comment="First Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680605330385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First Commit">
+      <created>1680605559053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680605559053</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First Commit">
+      <created>1680605697873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680605697873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
