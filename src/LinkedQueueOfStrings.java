@@ -25,7 +25,7 @@ public class LinkedQueueOfStrings {
         String item= first.item;
         first=first.next;
         if (isEmpty())
-            first=last;
+            last=null;
         return item;
     }
 }

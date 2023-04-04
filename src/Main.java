@@ -28,5 +28,22 @@ public class Main {
         System.out.println(stack1.pop());
         System.out.println(stack1.isEmpty());
 
+        System.out.println("----------------");
+        LinkedQueueOfStrings queue=new LinkedQueueOfStrings();
+        queue.enqueue("Hello");
+        queue.enqueue("sad");
+        queue.enqueue("happy");
+        queue.enqueue("world");
+        queue.enqueue("!!!");
+        System.out.println(queue.isEmpty());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+
+        System.out.println(queue.isEmpty());
+
+
     }
 }
