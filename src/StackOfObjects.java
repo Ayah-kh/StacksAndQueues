@@ -24,5 +24,3 @@ public class StackOfObjects<T> {
         Node next;
     }
 }
-
-}
