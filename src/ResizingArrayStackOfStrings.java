@@ -17,7 +17,12 @@ public class ResizingArrayStackOfStrings {
     }
 
     public String pop() {
-        return strings[--N];
+        String item=strings[--N];
+        strings[N]=null;
+        if (N>0&&N== strings.length/4)
+            resize(strings.length/2);
+        return item;
+
     }
 
     private void resize(int capacity) {
