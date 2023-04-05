@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class StackOfObjects<T> implements Iterable<T>{
+public class StackOfObjects<T> implements Iterable<T> {
 
     private Node first = null;
 
@@ -25,22 +25,24 @@ public class StackOfObjects<T> implements Iterable<T>{
     public Iterator<T> iterator() {
         return new ListIterator();
     }
-private class ListIterator implements Iterator<T>{
-        private Node current=first;
 
-    @Override
-    public boolean hasNext() {
-        return current!=null;
+    private class ListIterator implements Iterator<T> {
+        private Node current = first;
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public T next() {
+
+            T item = current.item;
+            current = current.next;
+            return item;
+        }
     }
 
-    @Override
-    public T next() {
-
-        T item= current.item;
-        current=current.next;
-        return item;
-    }
-}
     private class Node {
         T item;
         Node next;
